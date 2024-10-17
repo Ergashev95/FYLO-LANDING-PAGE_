@@ -1,0 +1,59 @@
+@media only screen and (max-width: 576px) {
+    .site-header {
+        width: 100%;
+        padding-top: 24px !important;
+
+    }
+    .nav-link {
+        font-size: 14px !important;
+    }
+    .logo-image {
+        width: 80px;
+    }
+
+    .d-mobile {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .nav {
+        column-gap: 24px;
+    }
+    .site-hero__image {
+        width: 304px;
+    }
+    .site-hero {
+            padding-top: 98px;
+    }
+    .site-hero__headline {
+        max-width: 320px;
+        width: 100%;
+        margin-top: 40px;
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px;
+        margin: auto;
+    }
+    .site-hero__text {
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 307px;
+        width: 100%;
+        margin: 24px auto 32px;
+        text-align: center;
+
+    }
+    .form {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .form-input {
+        display: block;
+        width: 100% !important;
+    }
+    .form-btn {
+        display: block;
+        max-width: unset;
+        width: 100% !important;
+    }
+}

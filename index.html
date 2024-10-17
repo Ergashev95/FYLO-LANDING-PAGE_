@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fylo landing page</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+
 </head>
 <body>
 
           <!--  SITE-HEADER-HERO  -->
           <div class="site-header-hero">
               <header class="site-header">
-                  <div class="container">
+                  <div class="container d-flex">
                       <a href="#!" class="site-header__logo logo">
                           <img src="./images/logo.svg" alt="Site logo" class="logo-image">
                       </a>
-
                       <ul class="site-header__menu nav">
                           <li class="nav-item">
                               <a href="#!" class="nav-link">Features</a>
@@ -28,6 +30,27 @@
                       </ul>
                   </div>
               </header>
+              <!-- SITE-HERO -->
+              <div class="site-hero">
+                  <div class="container d-flex d-mobile">
+                      <div class="site-hero__desc">
+                          <h1 class="site-hero__headline">All your files in one secure location, accessible anywhere.</h1>
+                            <p class="site-hero__text">Fylo stores your most important files in one secure location. Access
+                               them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+                          <form action="#!" class="site-hero__form form">
+                              <input type="text" class="form-input" placeholder="Enter your email…">
+                              <button type="submit" class="form-btn">Get Started</button>
+                          </form>
+                      </div>
+                      <div class="site-hero__banner">
+                          <picture class="site-hero__image">
+                              <source media="(max-width: 576px)" srcset="/images/site-hero-banner-mobile.png" width="100%">
+                              <img src="./images/site-banner-desctop.svg" alt="Site banner" class="site-hero__photo" width="640px">
+                          </picture>
+                      </div>
+                  </div>
+              </div>
+              <!-- SITE-HERO -->
           </div>
           <!--  SITE-HEADER-HERO  -->
 

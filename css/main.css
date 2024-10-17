@@ -4,7 +4,7 @@
 
 :root {
     --Raleway: "Raleway";
-    --OpenSans: "OpenSans";
+    --OpenSans: "Open Sans";
     --NunitoSans: "NunitoSans";
     --Primry: #2F65F8;
     --DarkBlue: #07043B;
@@ -42,6 +42,104 @@ body {
 
 
 /* SITE-HEADER */
+.site-header {
+    width: 100%;
+    padding-top: 65px;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: block;
+}
+.logo-image {
+    width: 166px;
+    object-fit: cover;
+}
 
+.nav {
+    display: flex;
+    column-gap: 57px;
+}
+.nav-link {
+    color: var(--DarkBlue);
+    font-family: var(--Raleway);
+    font-size: 16px;
+    font-weight: 400;
 
+}
 /* SITE-HEADER */
+
+/* SITE-HERO */
+
+.site-hero {
+    padding-top: 86px;
+}
+
+.site-hero__headline {
+    max-width: 627px;
+    width: 100%;
+    font-family: var(--Raleway);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--DarkBlue);
+}
+.site-hero__text {
+    font-family: var(--OpenSans);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.531px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    max-width: 585px;
+    width: 100%;
+}
+.form {
+    display: flex;
+    column-gap: 16px;
+
+}
+.form-input {
+    padding: 14px 21px 12px 21px;
+    border-radius: 3.3px;
+    border: 1px solid var(--DarkBlue);
+    max-width: 320px;
+    width: 100%;
+
+}
+.form-input:focus {
+    outline: none;
+}
+.form-input::placeholder {
+    color: #C2C2C2;
+    font-family: var(--OpenSans);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.436px;
+}
+
+.form-btn {
+    max-width: 200px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    background-color: #2F65F8;
+    border: 1px solid #2F65F8;
+    border-radius: 3.3px;
+    font-family: var(--Raleway);
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+    transition: .5s;
+
+}
+.form-btn:active {
+    background-color: #6C9BFF;
+    border: 1px solid #6C9BFF;
+}
+/* SITE-HERO */
