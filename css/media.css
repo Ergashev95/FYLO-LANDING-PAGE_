@@ -56,4 +56,34 @@
         max-width: unset;
         width: 100% !important;
     }
+
+
+    /* SERVICE */
+    .service {
+            margin-top: 90px;
+    }
+    .service-content {
+        padding-top: 93px;
+        padding-bottom: 80px;
+    }
+    .service-headline {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 87px;
+        margin-bottom: 24px;
+    }
+    .service-text {
+        font-size: 14px;
+        color: #615F7E;
+        text-align: center;
+    }
+    .service-link {
+        justify-content: center;
+        margin-top: 36px;
+    }
+    .service-card__desc {
+        font-size: 10px;
+        line-height: 18.09px;
+    }
+    /* SERVICE */
 }
