@@ -86,4 +86,51 @@
         line-height: 18.09px;
     }
     /* SERVICE */
+
+    /* CONTACT */
+
+    .mobile-column {
+        flex-direction: column;
+    }
+
+    .contact-headline {
+        font-size: 18px;
+        text-align: center;
+        line-height: 24px
+    }
+
+    .contact-text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 280px;
+        width: 100%;
+        font-weight: 400;
+        letter-spacing: 0;
+        margin-bottom: 24px;
+    }
+
+    .input-control {
+        width: 240px;
+        padding-top: 11px;
+        padding-bottom: 8px;
+        padding-left: 9px;
+    }
+    .input-control::placeholder {
+        font-size: 10px;
+    }
+    .contact-btn {
+        width: 100%;
+        padding-top: 11px;
+        padding-bottom: 9px;
+        font-size: 10px;
+    }
+
+
+    /* CONTACT */
+
+
+    /* SITE-FOOTER */
+
+    /* SITE-FOOTER */
 }

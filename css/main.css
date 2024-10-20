@@ -255,3 +255,142 @@ body {
     line-height: 15px;
 }
 /* SERVICE */
+
+
+/* CONTACT */
+.contact {
+    padding-top: 100px;
+    padding-bottom: 85px;
+    background-color: #575988;
+}
+
+.contact-headline {
+    color: white;
+    font-family: var(--Raleway);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 17px;
+}
+.contact-text {
+        color: white;
+        font-family: var(--OpenSans);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: .5px;
+    max-width: 533px;
+    width: 100%;
+
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.input-control {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    padding-left: 22px;
+    width: 480px;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+    border-radius: 3.5px;
+    border: unset;
+    border: 1px solid white;
+
+
+}
+.input-contro::placeholder{
+    color: #C0C0C0;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--Raleway);
+}
+.input-control:focus{
+    outline: none;
+}
+.contact-btn {
+    background-color: var(--Primry);
+    padding: 16px 22px;
+    border: 1px solid var(--Primry);
+    border-radius: 3.3px;
+    color: white;
+    width: max-content;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+    font-family: var(--Raleway);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* CONTACT */
+
+/* SITE-FOOTER */
+.site-footer {
+    background-color: #07043B;
+    padding-top: 92px;
+    padding-bottom: 86px;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.footer-phone,
+.footer-email{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+.footer-phone__inner,
+.footer-email__inner {
+    color: white;
+    font-family: var(--OpenSans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.footer-link {
+    color: white;
+    font-family: var(--OpenSans);
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+.footer-link:active {
+    color: #6C9BFF;
+}
+.social {
+    display: flex;
+    column-gap: 13px;
+
+}
+.social-link {
+    display: block;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #DFE4F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: .5s;
+}
+.social-link:active {
+    border-color: #6C9BFF;
+    color: #6C9BFF;
+}
+
+/* SITE-FOOTER */
