@@ -131,6 +131,17 @@
 
 
     /* SITE-FOOTER */
-
+    .site-footer {
+        padding-top: 65px;
+        padding-bottom: 42px;
+    }
+    .footer-info {
+        flex-direction: column;
+        padding-top: 32px;
+        row-gap: 32px;
+    }
+    .social {
+        margin: auto;
+    }
     /* SITE-FOOTER */
 }
